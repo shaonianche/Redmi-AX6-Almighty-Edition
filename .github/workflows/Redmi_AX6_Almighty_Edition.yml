@@ -13,7 +13,7 @@ name: Redmi AX6 Almighty Edition
 on:
   repository_dispatch:
   schedule:
-    - cron: 0 17 * * *
+    - cron: 0 13 * * 5
   workflow_dispatch:
     inputs:
       ssh:
